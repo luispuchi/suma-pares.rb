@@ -4,7 +4,10 @@ i = 0
 suma = 0
 
 while i < numero
-  i +=2
-  suma += i
+  if i%2==0
+    suma += i
+    i +=2
+  
+end
 end
 puts suma
