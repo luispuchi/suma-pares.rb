@@ -3,11 +3,11 @@ numero = ARGV[0].to_i
 i = 0
 suma = 0
 
-while i < numero
-  if i%2==0
+while i <= numero
+  if i.even?
     suma += i
-    i +=2
+  end
+    i +=1
   
-end
 end
 puts suma
